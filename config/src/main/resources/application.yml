@@ -1,0 +1,11 @@
+
+server:
+  port: 8761
+spring:
+  application:
+    name: ConfigServer5001
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lovelycoder0/springboot.git
